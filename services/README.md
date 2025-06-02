@@ -1,5 +1,13 @@
 # Réseau Social - API Microservices
-
+# Ajout d'un template pour tester 
+Dans le sous-dossier template/src/App.js, un template a été mis en place pour tester les api (il faut démarrer tous les autres services avant de faire démarrer le template : 
+```bash
+cd auth-service && npm start
+cd post-service && npm start
+cd like-service && npm start
+cd template && npm start
+```
+Cela lancera un localhost:3000 pour tester avec un interface :) 
 
 ## Description
 Cette application est une API de réseau social construite en architecture **microservices** avec **Node.js**, **Express** et **MongoDB**. Elle permet à des utilisateurs de s’inscrire, se connecter, publier du contenu et liker les publications des autres.
